@@ -1,0 +1,1 @@
+2025-06-25 16:34:40,471 [1] INFO HelloLog.DoLog - testttt
