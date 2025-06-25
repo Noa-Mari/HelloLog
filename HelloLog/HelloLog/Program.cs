@@ -4,4 +4,4 @@ using log4net.Config;
 using System;
 
 DoLog doLog = new DoLog();
-doLog.Log();
+doLog.runLevel();

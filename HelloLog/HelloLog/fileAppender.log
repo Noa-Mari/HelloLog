@@ -1,3 +1,15 @@
 160  [1] INFO  - testttt1
 166  [1] INFO  - testttt1
 157  [1] INFO  - testttt1
+217  [1] INFO  - testttt1
+222  [1] DEBUG - DEBUG
+150  [1] INFO  - testttt1
+152  [1] WARN  - WARN
+156  [1] INFO  - testttt1
+169  [1] FATAL - throw FATAL
+System.Exception: throw FATAL
+   at HelloLog.DoLog.runLevel() in /Users/noamari/Desktop/mamas2/HelloLog/HelloLog/HelloLog/DoLog.cs:line 42
+170  [1] INFO  - testttt1
+173  [1] WARN  - WARN
+2025-06-25 17:31:43,698 INFO  HelloLog.DoLog - testttt1
+2025-06-25 17:31:43,702 WARN  HelloLog.DoLog - WARN
