@@ -14,10 +14,10 @@ namespace HelloLog
         public void Log()
         {
             BasicConfigurator.Configure();
-            
-            _log.Info("testttt");
+            XmlConfigurator.Configure(new FileInfo("/Users/noamari/Desktop/mamas2/HelloLog/HelloLog/HelloLog/App.xml"));
 
-            Console.ReadLine();
+            _log.Info("testttt1");
+
         }
     }
 }
